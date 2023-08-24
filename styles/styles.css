@@ -25,7 +25,7 @@ nav {
 }
 
 .nav-links:hover {
-  color: #457B9D;
+  color: #468ebb;
 }
 
 .title {
@@ -82,14 +82,11 @@ nav {
   margin-right: 20px;
   transition: 500ms ease;
   cursor: pointer;
-  border: 1px solid #457B9D;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-primary:hover {
-  background: rgba(69, 123, 157, 0.2);
-  border: 1px solid #457B9D;
-  color: #457B9D;
+  background-color: #87bee0;
 }
 
 .btn-secondary {
@@ -106,6 +103,5 @@ nav {
 }
 
 .btn-secondary:hover {
-  background-color: #457B9D;
-  color: white;
+  
 }

@@ -1,43 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AJCode Project</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
-</head>
-<body>
-  <nav class="navbar">
-    <div>
-      <a class="navbar-link title" href="#">Mark</a>
-    </div>
-    <div>
-      <a class="navbar-link nav-links" href="#">About me</a>
-      <a class="navbar-link nav-links" href="#">My roots</a>
-      <a class="navbar-link nav-links" href="#">AJT</a>
-    </div>
-  </nav>
-  <main>
-    <section class="hero">
-      <div style="max-width: 651px;">
-        <h3 class="subtitle-hero">Привет всем, меня зовут</h3>
-        <h1 class="title-hero">Марк Ингер</h1>
-        <h2 class="big-subtitle-hero">Я активный еврейский подросток из города Алматы, Казахстан</h2>
-        <div class="btns-hero">
-          <button class="btn-primary">Написать мне</button>
-          <button class="btn-secondary">Подробнее</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJCode Project</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/scripts/main.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a class="navbar-link title" href="#">Mark</a>
+      </div>
+      <div>
+        <a class="navbar-link nav-links" href="#">
+          <i style="margin-right: 5px" class="fa-regular fa-user"></i>
+          About me
+        </a>
+        <a class="navbar-link nav-links" href="#">My roots</a>
+        <a class="navbar-link nav-links" href="#">AJT</a>
+        <a class="navbar-link nav-links" href="/grid.html">Grid</a>
+      </div>
+    </nav>
+    <main>
+      <section class="hero">
+        <div style="max-width: 651px">
+          <h3 class="subtitle-hero">Привет всем, меня зовут</h3>
+          <h1 class="title-hero">Марк Ингер</h1>
+          <h2 class="big-subtitle-hero">
+            Я активный еврейский подросток из города Алматы, Казахстан
+          </h2>
+          <div class="btns-hero">
+            <button class="btn-primary">
+              Написать мне
+              <i
+                style="margin-left: 5px"
+                class="fa-solid fa-cloud-arrow-down"
+              ></i>
+            </button>
+            <button class="btn-secondary">Подробнее</button>
+          </div>
         </div>
-      </div>
-      <div
-        style="display: flex; justify-content: flex-end; width: 400px; height: 400px;"
-      >
-        <img class="personal-img" src="/994C26A7-DDC2-4875-BE5E-C7070377AF99_1_105_c.jpeg">
-      </div>
-    </section>
-  </main>
-</body>
+        <div
+          style="
+            display: flex;
+            justify-content: flex-end;
+            width: 400px;
+            height: 400px;
+          "
+        >
+          <img class="personal-img" src="/public/assets/mark.jpeg" />
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/82ea2b9bf3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
